@@ -3,3 +3,49 @@ header{
   width: 100%;
   
 }
+.logo{
+  display: inline-block;
+  vertical-align: middle;
+}
+.fst-menu{
+  display: inline-block;
+  margin-left: -15px;
+}
+
+.fst-menu ul li a{
+  margin-left: 15px;
+  color: black;
+}
+
+.spazio{
+  display: inline-block;
+}
+
+.snd-menu{
+  display: inline-block;
+  margin-left: -50px;
+}
+.snd-menu ul li a{
+  color: black;
+  margin-left: 15px;
+}
+
+.button{
+  display: inline-block;
+  padding-left: 15px;
+  color: white;
+}
+.btn{
+  color:white;
+  background-color: rgb(34, 160, 209);
+  padding: 5px 8px;
+  border: none;
+}
+/* fine header top */
+
+.fst-text{
+  padding-top: 70px;
+  /* text-transform: capitalize; */
+  font-size: 60px;
+  font-weight: bolder;
+}
