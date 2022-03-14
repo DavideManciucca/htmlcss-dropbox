@@ -43,9 +43,46 @@ header{
 }
 /* fine header top */
 
-.fst-text{
-  padding-top: 70px;
-  /* text-transform: capitalize; */
+
+/* inizio jumbotron */
+
+
+.title h1{
   font-size: 60px;
-  font-weight: bolder;
+  
 }
+.title{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.scn-header{
+  background-color: rgb(180, 231, 255);
+  
+}
+
+.btn-freetrial{
+  margin-top: 15px;
+  color: white;
+  padding: 8px 16px;
+  background-color: blue;
+  border: none;
+}
+
+.jumbimg{
+  background-image: url(img/jumbo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+.ltt-text{
+  font-size: 12px;
+}
+
+
+/* fine jumbotron e header */
+.titleh2{
+  font-size: 20px
+}
+
+
+

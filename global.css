@@ -5,3 +5,13 @@ ul li{
   list-style: none;
   display: inline-block
 }
+.fa-solid, .fa-arrow-down{
+  font-size: 40px;
+  padding-top: 25px;
+}
+/* .fa-regular, .fa-user{
+
+} */
+main{
+  margin-top: 150px;
+}
