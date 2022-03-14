@@ -1,17 +1,32 @@
 a{
   text-decoration: none;
 }
-ul li{
+.fst-menu ul li{
   list-style: none;
   display: inline-block
 }
+.snd-menu ul li{
+  list-style: none;
+  display: inline-block
+}
+.lista-col ul li {
+  list-style: none;
+  margin-left: 0;
+  padding-top: 20px;
+
+}
+
 .fa-solid, .fa-arrow-down{
   font-size: 40px;
   padding-top: 25px;
 }
-/* .fa-regular, .fa-user{
-
-} */
+.fa-solid, .fa-hotel{
+  font-size: 10px;
+  margin-top: -20px;
+}
+.col-text{
+  font-size: 13px;
+}
 main{
   margin-top: 150px;
 }
