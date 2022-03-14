@@ -16,7 +16,7 @@ a{
 
 }
 
-.fa-solid, .fa-arrow-down{
+.arrow.fa-solid, .fa-arrow-down{
   font-size: 40px;
   padding-top: 25px;
 }
@@ -29,4 +29,7 @@ a{
 }
 main{
   margin-top: 150px;
+}
+#acquistaora{
+  text-decoration: underline;
 }

@@ -57,6 +57,7 @@ header{
 }
 .scn-header{
   background-color: rgb(180, 231, 255);
+  margin-top: -40px;
   
 }
 
@@ -84,6 +85,15 @@ header{
   font-size: 20px
 }
 
+.col{
+  border: 1px solid black;
+  height: 700px;
+}
 
+.seconda ul li::before{
+  content: "\2713";
+  color: blue;
+  
+}
 
 
