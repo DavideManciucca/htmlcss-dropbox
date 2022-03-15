@@ -1,5 +1,5 @@
 header{
-  height: 70px;
+  height: 100px;
   width: 100%;
   
 }
@@ -29,13 +29,15 @@ header{
   color: black;
   margin-left: 15px;
 }
-
+.sx-col{
+  padding-top: 25px;
+}
 .button{
   display: inline-block;
   padding-left: 15px;
   color: white;
 }
-.btn{
+.btn-top{
   color:white;
   background-color: rgb(34, 160, 209);
   padding: 5px 8px;
@@ -49,6 +51,7 @@ header{
 
 .title h1{
   font-size: 60px;
+  padding-top: 20px;
   
 }
 .title{
@@ -57,11 +60,11 @@ header{
 }
 .scn-header{
   background-color: rgb(180, 231, 255);
-  margin-top: -40px;
+  margin-top: 20px;
   
 }
 
-.btn-freetrial{
+.btn{
   margin-top: 15px;
   color: white;
   padding: 8px 16px;
@@ -81,19 +84,107 @@ header{
 
 
 /* fine jumbotron e header */
+
+
 .titleh2{
-  font-size: 20px
+  font-size: 20px;
+  padding-bottom: 25px;
 }
 
 .col{
-  border: 1px solid black;
-  height: 700px;
+  margin-top: 20px;
+  
+  height: 550px;
+  padding: 20px;
+}
+.btn.text-center{
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.card{
+  border: 1px solid lightgray;
+}
+.col-title{
+  border: 1px solid gray ;
 }
 
 .seconda ul li::before{
   content: "\2713";
   color: blue;
-  
+}
+.titl-inline{
+  display: inline-block;
 }
 
+.btn.row{
+  float: right;
+  vertical-align: middle;
+  
+}
+/* pausa */
 
+.section2.container.clearfix{
+  margin-top: 100px;
+}
+.img{
+  background-image: url(img/partner.png);
+  height: 400px;
+  background-size: cover;
+  width: calc(100%/2);
+}
+.card2{
+  padding:40px
+}
+.imgtitle{
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+/* inizio 3 sezione */
+.section3.container.clearfix{
+  margin-top: 80px;
+}
+.element{
+  padding: 20px;
+}
+.divimg{
+  background-image: url(img/business-feature-switching-tools.png);
+  height: 220px;
+  width: 100%;
+  background-size: cover;
+}
+.divimg2{
+  background-image: url(img/business-feature-coordinate-it.png);
+  height: 220px;
+  width: 100%;
+  background-size: cover;
+}
+.divimg3{
+  background-image:url(img/business-feature-multi-device.png);
+  height: 220px;
+  width: 100%;
+  background-size: cover;
+}
+.divimg4{
+  background-image: url(img/business-feature-integrations-it.png);
+  height:220px;
+  width: 100%;
+  background-size: cover;
+}
+.divimg5{
+  background-image: url(img/business-feature-send-files-it.png);
+  height:220px;
+  width: 100%;
+  background-size: cover;
+}
+.divimg6{
+  background-image: url(img/business-feature-security.png);
+  height:220px;
+  width: 100%;
+  background-size: cover;
+}
+.element p{
+  margin-top: 20px;
+}
+
+/* inizio 4 sezione */
