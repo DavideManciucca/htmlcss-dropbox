@@ -1,8 +1,9 @@
 header{
-  height: 100px;
+  /* height: 100px; */
   width: 100%;
   
 }
+
 .logo{
   display: inline-block;
   vertical-align: middle;
@@ -90,6 +91,9 @@ header{
   font-size: 20px;
   padding-bottom: 25px;
 }
+.test{
+  padding-left: 40px;
+}
 
 .col{
   margin-top: 20px;
@@ -145,7 +149,7 @@ header{
   margin-top: 80px;
 }
 .element{
-  padding: 20px;
+  padding: 10px;
 }
 .divimg{
   background-image: url(img/business-feature-switching-tools.png);
@@ -187,4 +191,81 @@ header{
   margin-top: 20px;
 }
 
-/* inizio 4 sezione */
+/* sezione 5 */
+.section5.titleh2 h2{
+  margin-top: 500px;
+}
+/* sezione 6 */
+.sx{
+  height: 400px;
+}
+.center{
+  height: 400px;
+}
+.dx{
+  height: 400px;
+}
+.imgw2{
+  width: 50%;
+  height: 50%;
+}
+.centerimg{
+  height: 40px;
+  margin-bottom: 20px;
+}
+.centercontent{
+  height: 400px;
+  padding: 30px;
+  overflow: scroll;
+}
+
+/* sezione 7 */
+.coloredbox{
+  background-color:lightblue;
+  height: 300px;
+  
+}
+.coloredbox h1{
+  display: inline-block;
+  vertical-align: middle;
+}
+.coloredbox .btn{
+  margin-left: 350px;
+}
+.coloredbox .container{
+  padding-top: 125px;
+
+}
+
+/* footer */
+.section9.clearfix{
+  background-color: black;
+  margin-top: 50px;
+  /* padding-bottom: 50px; */
+
+}
+.footer-list{
+  list-style: none;
+  
+}
+.col-footer{
+  margin-right: 40px;
+  padding-bottom: 40px;
+}
+.footer-a{
+  text-decoration: none;
+  color: white;
+}
+.footer-card{
+  padding: 70px;
+}
+.footer-title{
+  color: white;
+  font-weight: bolder;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+.last{
+  font-size: 10px;
+  color: lightgray;
+}

@@ -50,3 +50,51 @@ main{
   text-decoration: underline;
   cursor: pointer;
 }
+
+main{
+  margin-top: 120px;
+}
+#asec5{
+  font-size: 10px;
+  text-decoration: underline;
+}
+.imgw2{
+  padding: 10px;
+  /* border: 0.1px solid lightslategray; */
+}
+.spandiff{
+  
+  font-size: 14px;
+  font-weight: bolder;
+}
+.spandiff::after{
+  content: "\2193";
+  padding-left: 360px;
+
+} 
+.spanhr{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.btn-white{
+  background-color: white;
+  color: black;
+}
+.btn.btn-white:hover{
+  background-color: lightgrey;
+}
+.btn-gray:hover{
+ background-color:lightgray;
+}
+.btn:hover{
+  background-color: skyblue;
+}
+.fst-menu a:hover{
+  text-decoration: underline;
+}
+.snd-menu a:hover{
+  text-decoration: underline;
+}
+.imgw2:active{
+  border: 1px solid;
+}
